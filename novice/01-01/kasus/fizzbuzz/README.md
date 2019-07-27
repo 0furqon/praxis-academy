@@ -6,4 +6,8 @@ When you have that working, modify your program to print "FizzBuzz" for numbers 
 
 (This is actually an interview question that has been claimed to weed out a significant percentage of programmer candidates. So if you solved it, your labor market value just went up.)
 
-![Screenshot](/img/scr.png?raw=true "Hasil Perulangan")
+## Problem 1
+![Screenshot](./img/scr.png?raw=true "Hasil Perulangan")
+
+## Problem 2
+![Screenshot](./img/scr2.png?raw=true "Hasil Perulangan")
