@@ -1,0 +1,29 @@
+{
+  "name": "belajar-npm",
+  "version": "1.0.0",
+  "description": "Belajar npm dan node dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arif Furqon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0furqon/praxis-academy.git"
+  },
+  "keywords": [
+    "javascript",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/0furqon/praxis-academy/issues"
+  },
+  "homepage": "https://github.com/0furqon/praxis-academy#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
