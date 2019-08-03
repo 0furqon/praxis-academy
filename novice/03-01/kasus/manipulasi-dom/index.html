@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <section class="section">
+        <div class="container">
+            <div class="level">
+                <div class="level-left">
+                    <div class="level-item">
+                        <div>
+                            <h1 class="title">قائمة التسوق</h1>
+                            <div class="field">
+                                <label class="label">أدخل عنصر جديد</label>
+                                <div class="control">
+                                    <textarea id="inputList" class="textarea" rows="3"></textarea>
+                                </div>
+                                <button id="addItem" class="button is-large is-fullwidth">أضف إلى القائمة</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="level-item">
+                    <div id="list">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

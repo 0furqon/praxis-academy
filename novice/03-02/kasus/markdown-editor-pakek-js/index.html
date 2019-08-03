@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+
+    <!-- Styling Markdown-->
+    <link rel="stylesheet" href="./node_modules/github-markdown-css/github-markdown.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- lodash dan marked -->
+    <script src="./node_modules/lodash/lodash.min.js"></script>
+    <script src="./node_modules/marked/marked.min.js"></script>
+
+</head>
+<body>
+    
+    <div id="editor">
+        <textarea id="input"></textarea>
+        <div id="compiledMarkdown" class="markdown-body"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

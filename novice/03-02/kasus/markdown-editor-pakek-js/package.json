@@ -1,0 +1,30 @@
+{
+  "name": "markdown-editor-pakek-js",
+  "version": "1.0.0",
+  "description": "Markdown editor with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0furqon/praxis-academy.git"
+  },
+  "keywords": [
+    "markdown",
+    "javascript"
+  ],
+  "author": "Arif Furqon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0furqon/praxis-academy/issues"
+  },
+  "homepage": "https://github.com/0furqon/praxis-academy#readme",
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "github-markdown-css": "^3.0.1",
+    "lodash": "^4.17.15",
+    "marked": "^0.7.0"
+  }
+}
